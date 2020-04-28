@@ -10,9 +10,9 @@
 #define Rst 4
 
 RF24 radio(9, 10); // CE, CSN
-byte self[6] = "0Node";
-byte child[6] = "0Node";
-byte gate[6] = "0Node";
+byte self[6] = "9Node";
+byte child[6] = "9Node";
+byte gate[6] = "9Node";
 byte voidAddress[6] = "00000";
 int address = 1;
 

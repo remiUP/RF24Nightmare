@@ -26,9 +26,9 @@ unsigned long duration = 10000;
 unsigned long waitPairingBlinkPeriod = 1000;
 bool ledStatus = false;
 
-byte self[6] = "9Node";
-byte child[6] = "9Node";
-byte gate[6] = "9Node";
+byte self[6] = "0Node";
+byte child[6] = "0Node";
+byte gate[6] = "0Node";
 byte voidAddress[6] = "00000";
 int address = 0;
 
